@@ -6,7 +6,6 @@
   "scripts": {
     "start": "vite",
     "scss-compile": "node-sass -rw sass/custom.scss -o sass/custom.css",
-
     "build-css": "npm run scss-compile"
   },
   "author": "",
@@ -18,6 +17,7 @@
   },
   "dependencies": {
     "bootstrap": "^5.2.0",
-    "jquery": "^3.6.0"
+    "jquery": "^3.6.0",
+    "node-sass": "^7.0.1"
   }
 }
